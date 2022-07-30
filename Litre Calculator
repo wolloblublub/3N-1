@@ -1,0 +1,6 @@
+width=float(input("Width CM: "))
+height=float(input("Height CM: "))
+depth=float(input("Depth CM: "))
+dim=(width*height*depth)
+volume=(dim/1000)
+print(volume,"L")
